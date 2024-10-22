@@ -1,6 +1,8 @@
 # Deploying a basic ML model
  This is a guide to deploying a basic machine learning model using docker and FastAPI
 
+Note this guide is based on a combination of resources used, attached at the bottom of the file.
+
 1. create these files in a project:
     1. **main.py**            # FastAPI code for prediction API**
     2. **__init__.py**        # Empty file
@@ -128,3 +130,8 @@ This should return a response with the predicted house price, like this:
 ![Local Image](image.png)
 
 Note: Anyone with access to your Docker Hub repository can now pull the image and run the container.
+
+
+https://machinelearningmastery.com/a-practical-guide-to-deploying-machine-learning-models/
+
+https://www.youtube.com/watch?v=bi0cKgmRuiA
